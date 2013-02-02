@@ -1,3 +1,23 @@
+
+git-hooks
+=========
+
+This check syntax for php, xml, yaml and javascript files, before commit your changes!
+If find any error, not leave send to repository
+
+
+Clone this repo on .git you directory
+
+	cd ~/yourprojectFolder
+	cd  .git/hooks
+	git clone git@github.com:stvkoch/git-hooks.git .
+
+
+
+Thks
+stvkoch@gmail.com
+
+
 Copyright (c) 2013 Steven Koch <http://inov.es>
 
 Permission  is  hereby granted, free of charge, to any person ob-
@@ -20,22 +40,3 @@ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN  THE
 SOFTWARE.
 
-
-
-git-hooks
-=========
-
-This check syntax for php, xml, yaml and javascript files, before commit your changes!
-If find any error, not leave send to repository
-
-
-Clone this repo on .git you directory
-
-	cd ~/yourprojectFolder
-	cd  .git/hooks
-	git clone git@github.com:stvkoch/git-hooks.git .
-
-
-
-Thks
-stvkoch@gmail.com
