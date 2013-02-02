@@ -6,7 +6,7 @@ This check syntax for php, xml, yaml and javascript files, before commit your ch
 If find any error, not leave send to repository
 
 
-Clone this repo on .git you directory
+Clone this repository on your .git project directory
 
 	cd ~/yourprojectFolder
 	cd  .git/hooks
