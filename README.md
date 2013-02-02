@@ -25,7 +25,8 @@ SOFTWARE.
 git-hooks
 =========
 
-This check syntax fo php, xml, yaml and javascript file before commit your changes!
+This check syntax for php, xml, yaml and javascript files, before commit your changes!
+If find any error, not leave send to repository
 
 
 Clone this repo on .git you directory
