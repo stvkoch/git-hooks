@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 
-echo "##  Verificando erros... ##\n";
+echo "##  Check errors... ##\n";
 
 $output = array();
 $return = 0;
@@ -51,7 +51,7 @@ foreach ($output as $file) {
 	        $exit_status = 1;
 	    }elseif (preg_match($filename_pattern_JS, $file)) {
 	        $lint_output = array();
-	        exec('jsl -nologo -process ' . escapeshellarg($file) , $lint_output, $return);
+	        exec(__DIR__.'/vendor/bin/jsl -nologo -process ' . escapeshellarg($file) , $lint_output, $return);
 	        $last_line = array_pop($lint_output);
 	        if(strpos($last_line, '0 error(s)')!==false){
 	            continue;
