@@ -25,6 +25,9 @@ SOFTWARE.
 git-hooks
 =========
 
+This check syntax fo php, xml, yaml and javascript file before commit your changes!
+
+
 Clone this repo on .git you directory
 
 	cd ~/yourprojectFolder
